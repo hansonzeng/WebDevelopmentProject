@@ -1,0 +1,127 @@
+<!DOCTYPE html> 	<!-- Tells the browser this is HTML 5 -->
+<html lang="en"> 	<!-- Root of the html document and is in English -->
+
+<head> 
+	<!-- The HEAD section has (mostly) items that are not directly seen by the user -->
+	<!-- META tags help search engines identify your content more easily -->
+	<meta charset="utf-8" /> <!-- Specifies the character encoding for the HTML document -->
+	<meta name="author" content="Hanson Zeng">
+	<meta name="keywords" content="Phipps Conservatory">
+	<meta name="description" content="Phipps Website">
+
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+  	<!-- SlidesJS Required: Link to jquery.slides.js -->
+    <script src="../js/jquery.slides.min.js"></script>
+  	<!-- End SlidesJS Required -->
+
+
+	<!-- Link to CSS -->
+	<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+	<link href="../css/example.css" rel="stylesheet" type="text/css" />
+	<link href="../css/lightbox.css" rel="stylesheet"/>
+
+
+	<!-- this is CSS for the JS -->
+	<link rel="stylesheet" href="../css/example.css">
+    <link rel="stylesheet" href="../css/slideShowAuto.css">
+    <link rel="stylesheet" href="../css/slideShowAutoResponsive.css">
+	<!-- The href=" " attribute is where you placed the style sheet. 
+	The rel="stylesheet" attribute just says to look for a stylesheet. 
+	The type="text/css" tells the browser the mime type of the document, which is a cascading style sheet. -->
+
+	<title>Phipps Botanical Conservatory</title>
+</head>
+    
+<body>
+	<!-- The BODY is where the main content goes -->
+
+<div id="wrapper">
+
+	<!-- JS code starts here-->
+  <!-- SlidesJS Required: -->
+
+  	<nav>
+		<img class="main-nav-logo" src="../images/logo1.png" alt="Phipps Logo"/>
+		<a href="../index.html">Main</a>
+		<a href="../page_events/events.html">Events</a>
+		<a href="../page_getInvolved/getinvolved.html">Get Involved</a>
+		<a href="../page_location/location.html">Location</a>
+		<a href="../page_gallery/gallery.html">Gallery</a>
+	</nav>
+
+
+  <!-- SlidesJS Required: Start Slides -->
+  <!-- The container is used to define the width of the slideshow -->
+  <div class="container">
+    <div id="slides">
+      <img src="../images/phipps2.jpg" alt="">
+      <img src="../images/phipps3.jpg" alt="">
+      <img src="../images/phipps1.jpg" alt="">
+    </div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 920,
+        height: 528,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+
+  <div class="row">
+
+  	<div class="one-third-row">
+  		<div class="content-box">
+  			<div class="inner-nav-title"> More Information </div>
+  			<div class="content-links">
+  				<a href="history.html">History</a></br>
+  				<a href="mission.html">Mission</a></br>
+  				<a href="team.html">Team</a></br>
+  				<a href="expansion.html">Expansion</a></br>
+  			</div>
+  		</div>
+
+
+  	</div>
+
+
+	<div class="two-thirds-row">
+		
+		<div class="content">
+      <div class="sub-main-box">
+
+			<h3>Senior Team At Phipps</h3>
+			<p>Richard V. Piacentini, Executive Director</br>
+			<p>Gregory R. DuFour, Director, Development Campaign</br>
+			<p>Liz Fetchin, Director of Marketing and Communications</br>
+			<p>Jane Fahringer, Director of Guest Services</br>
+			<p>Dr. Emily A. Kalnicky, Director of Science Education and Research</br>
+			<p>Jan Kortz, Director of Human Resources and Operations</br>
+			<p>Robert S. Mermelstein, Chief Financial Officer</br>
+			<p>Margie Radebaugh, Director of Horticulture and Education</br>	
+			<p>Jason Wirick, Director of Facilities and Sustainability Management</br>
+
+
+		</div>
+  </div>
+</div>
+
+<div class="sub-main-footer">
+  <div class="message"> Follow Us Here</div>
+  <div class="socialmedia">
+    <a href="https://www.facebook.com/phippsconservatory"><img class="logo" src="../images/Facebook_Logo.png" alt="facebook logo"/></a>
+    <a href="https://twitter.com/PhippsNews"><img class="logo" src="../images/twitter_logo.png" alt="twitterlogo"/></a>
+    <a href="http://www.youtube.com/user/phippsconservatory"><img class="logo" src="../images/youtube_logo.png" alt="youtube"/></a>
+    <a href="https://www.flickr.com/photos/phippsconservatory/"><img class="logo" src="../images/flicker_logo.png" alt="flicker"/></a>
+  </div>
+</div>

@@ -1,0 +1,417 @@
+/* 	CSS Styling for the 67-250 Web Development Assignment */
+
+#wrapper {
+	margin: 0 auto;
+	max-width: 1200px;
+	/*background-color: orange;*/
+}
+
+
+html {
+	font-family: "Gill Sans";
+}
+
+h6 {
+	font-size: 26px;
+	/* used for headlines 20pt and over*/
+}
+
+h3 {
+
+	font-size: 25px;
+	/* used for subheads one 19pt and under*/
+}
+
+p {
+	font-size: 16px;
+	/* this is for text one 14 pts */
+}
+
+/* header starts here */
+
+header{
+	margin: 10px 0px 5px 0px; /* top, right, bottom, left */
+	padding: 10px;
+}
+
+nav{
+   width: 1200px;
+   text-align: left;
+   height: 50px;
+   padding: 10px;
+   margin-bottom: 20px;
+   margin-bottom: 50px;
+}
+   
+nav a{
+   font-size:14px;
+   text-align: center;
+   text-transform: uppercase;
+   margin:10px 0;
+   padding-top:32px;
+   color:#78a22f;
+   text-decoration: none;
+   width: 185px;
+   display: inline-block;
+   font-weight: bold;
+}
+   
+nav a:hover{
+   background-color:#EEF9DA;
+}
+
+.main-nav {
+	font-weight: bold;
+	margin-bottom: 10px;
+	list-style-type: none;
+	-webkit-padding-start: 0px;
+	height: 55px;
+	display: table;
+}
+
+
+
+.main-nav-element {
+	display: table-cell;
+	vertical-align: bottom;
+	width: 20%;
+	text-align: center;
+	height: 55px;
+}
+
+.main-nav-element :hover {
+	background-color: #8CAC89;
+}
+
+.main-nav-element a {
+	text-decoration: none;
+	color: #78a22f;
+}
+
+.main-nav-element a:hover {
+	color: #fff;
+	background-color: #8CAC89;
+}
+
+
+
+
+
+/*header is done here*/
+
+
+/*used for the previous slideshow version 
+.slideshow{
+	padding: 10px;
+	float:right;
+	background: white;
+}
+
+
+.slideshow .fall:hover{
+	border-style: solid;
+	border-color: #F1E3C5;
+}
+
+*/
+
+
+table {
+	width: 100%;
+}
+
+.row {
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.one-third-row {
+	max-width: 320px;
+	float: left;
+}
+
+.two-thirds-row {
+	margin-left: 320px;
+	max-width: 880px;
+}
+
+
+.sub-main-box{
+	height: 860px;
+}
+
+/* body starts here */
+
+body{
+	background-color: #FFF;
+	padding-bottom: 80px ;
+}
+
+#col{
+	background-color: #FFEAD0;
+}
+.titles{
+	font-size: 30px;
+	color: #385800;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: left;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+
+
+td{
+	text-align: center;
+}
+
+.container {
+	float: left;
+}
+
+
+.content-box{
+	width: 300px;
+}
+
+.inner-nav-title{
+	font-size: 30px;
+	color: #385800;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.content-links{
+	height: 800px;
+	background-color: #EEF9DA;
+
+}
+
+.content-links a{
+	display: inline-block;
+	width: 300px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color:#78a22f;
+	text-transform: uppercase;
+}
+
+.content-links a:hover{
+	color: #fff;
+	background-color: #8CAC89;
+}
+
+/* 
+Content is for the content in the
+sub links within the content-link
+*/
+
+.content h3{
+	margin-top: 720px;
+	padding-top: 9px;
+}
+
+.main-content {
+	width: 850px;
+	padding-left: 10px;
+	margin-top: 720px;
+}
+
+.main-content-heading {
+	font-size: 30px;
+	color: #385800;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.main-content-content {
+}
+
+.main-content-content-body{
+	background-color: #EEF9DA;
+	padding-left: 10px;
+	font-size: 14px;
+	color: #385800;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.contactinfo {
+
+	width: 300px;
+	float: left;
+	margin: 10px;
+}
+
+.contactinfo-heading {
+	font-size: 20px;
+	color: #A15B02;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.contactinfo-content {
+	-webkit-padding-start: 0px;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+}
+
+.contactinfo-content-subheading {
+	padding-top: 10px;
+	padding-bottom: 15px;
+	background-color: #FFEAD0;
+	padding-left: 10px;
+	font-size: 14px;
+	color:#A15B02;
+	font-weight: bold;
+}
+
+.contactinfo-content-body {
+	background-color: #FFEAD0;
+	padding-left: 10px;
+	font-size: 14px;
+	color: #A15B02;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+}
+
+
+
+.hours {
+
+	width: 525px;
+	float: right;
+	margin: 10px;
+}
+
+.hours-heading {
+	padding-left: 10px;
+	font-size: 20px;
+	color: #A15B02;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.hours-content {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.hours-content-body{
+	background-color: #FFEAD0;
+	padding-left: 10px;
+	font-size: 14px;
+	color: #A15B02;
+	margin-bottom: 10px;
+	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+
+.admission{
+	width: 525px;
+	float:right;
+}
+
+.admission-heading{
+	font-size: 20px;
+	color: #A15B02;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.admission-content {
+	margin-right: 10px;
+}
+
+.admission-content-body{
+	background-color: #FFEAD0;
+	font-size: 14px;
+	color: #A15B02;
+	margin-right: 12px;
+	padding-top: 15px;
+}
+.admission-content-body th{
+	padding-bottom: 10px;
+}
+
+.admission-content-body td{
+	text-align: center;
+	padding-top: 2px;
+}
+
+.admission-content-body table{
+	position: center;
+}
+
+
+#googlemap address{
+	margin-bottom: 50px;
+}
+
+footer {
+	text-align: center;
+	margin-top: 600px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+
+footer .message{
+	font-size: 10px;
+	color: #385800;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.not-main-footer{
+	text-align: center;
+	margin-top: 200px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.not-main-footer .message{
+	font-size: 10px;
+	color: #385800;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.sub-main-footer{
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.socialmedia {
+	margin-left: 10px;
+}
+
+.socialmedia .logo{
+	padding-right: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+
+
+/* Enter CSS code in this file */

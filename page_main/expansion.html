@@ -1,0 +1,125 @@
+<!DOCTYPE html> 	<!-- Tells the browser this is HTML 5 -->
+<html lang="en"> 	<!-- Root of the html document and is in English -->
+
+<head> 
+  <!-- The HEAD section has (mostly) items that are not directly seen by the user -->
+  <!-- META tags help search engines identify your content more easily -->
+  <meta charset="utf-8" /> <!-- Specifies the character encoding for the HTML document -->
+  <meta name="author" content="Hanson Zeng">
+  <meta name="keywords" content="Phipps Conservatory">
+  <meta name="description" content="Phipps Website">
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+    <!-- SlidesJS Required: Link to jquery.slides.js -->
+    <script src="../js/jquery.slides.min.js"></script>
+    <!-- End SlidesJS Required -->
+    <!-- from here http://www.slidesjs.com/ -->
+
+
+  <!-- Link to CSS -->
+  <link href="../css/styles.css" rel="stylesheet" type="text/css" />
+
+
+  <!-- this is CSS for the JS -->
+    <link rel="stylesheet" href="../css/slideShowAuto.css">
+    <link rel="stylesheet" href="../css/slideShowAutoResponsive.css">
+  <!-- The href=" " attribute is where you placed the style sheet. 
+  The rel="stylesheet" attribute just says to look for a stylesheet. 
+  The type="text/css" tells the browser the mime type of the document, which is a cascading style sheet. -->
+
+  <title>Phipps Botanical Conservatory</title>
+</head>
+    
+
+<body>
+	<!-- The BODY is where the main content goes -->
+
+<div id="wrapper">
+
+
+	<!-- JS code starts here-->
+  <!-- SlidesJS Required: -->
+
+  	<nav>
+		<img class="main-nav-logo" src="../images/logo1.png" alt="Phipps Logo"/>
+		<a href="../index.html">Main</a>
+		<a href="../page_events/events.html">Events</a>
+		<a href="../page_getInvolved/getinvolved.html">Get Involved</a>
+		<a href="../page_location/location.html">Location</a>
+		<a href="../page_gallery/gallery.html">Gallery</a>
+	</nav>
+
+
+  <!-- SlidesJS Required: Start Slides -->
+  <!-- The container is used to define the width of the slideshow -->
+  <div class="container">
+    <div id="slides">
+      <img src="../images/phipps2.jpg" alt="">
+      <img src="../images/phipps3.jpg" alt="">
+      <img src="../images/phipps1.jpg" alt="">
+    </div>
+  </div>
+  <!-- End SlidesJS Required: Start Slides -->
+
+  <!-- SlidesJS Required: Initialize SlidesJS with a jQuery doc ready -->
+  <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 920,
+        height: 528,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+
+  <div class="row">
+
+  	<div class="one-third-row">
+  		<div class="content-box">
+  			<div class="inner-nav-title"> More Information </div>
+  			<div class="content-links">
+  				<a href="history.html">History</a></br>
+  				<a href="mission.html">Mission</a></br>
+  				<a href="team.html">Team</a></br>
+  				<a href="expansion.html">Expansion</a></br>
+  			</div>
+  		</div>
+
+
+  	</div>
+
+	<div class="two-thirds-row">
+		<div class="content">
+      <div class= "sub-main-box">
+
+		<h3>Expansion at Phipps</h3>
+			<p>In October 2003, Phipps announced an expansion project. The first phase, a green engineered Welcome Center topped by a neo-Victorian dome, was designed by IKM Incorporated, and completed in 2005. The Production Greenhouses and a Tropical Forest Conservatory were completed in 2006.</br>
+			<p>The Tropical Forest conservatory will have a different theme every two years, beginning with the country of Thailand. In addition to a "Research Forest Station" and a "Healer's Hut" (designed to educate visitors about various cultural topics), there are two waterfalls, several bridges, a stream, and a wide variety of plants from bamboo, orchids and frangipani to plants of economic, cultural, and horticultural value to the people of Thailand. The second theme is "Headwaters of the Amazon," which opened in early 2009.</br>
+			<p>An example of a Dale Chihuly art glass installation at the Phipps Conservatory in 2007
+			The new Tropical Forest Conservatory has several interesting features, which make it extremely energy-efficient (for a glass house.) It has "earth tubes" running underground to help cool the tropical forest and a Solid Oxide fuel cell, which powers this newly constructed part of the building. In addition, there are computer-controlled shades that block excess sun light from entering the structure and also help to insulate it at night.</br>
+			<p>In 2007, Phipps teamed with glass artist Dale Chihuly and his Tacoma-based team of glass blowers. They worked together to create a marriage of hand-blown glass and living plants. Following the closing of the exhibit in February, the conservatory retained four prominent pieces (the Welcome Center chandelier, the hanging gold star in the Desert Room, the celadon and purple gilded Fiori in the Tropical Fruit and Spice Room and the bronze, apricot and chartreuse Ikebana in the Palm Court) and subsequently purchased 26 smaller pieces for its permanent collection including six multicolored Macchia (wavy, shell-like bowls), thirteen amber Cattails and seven Paintbrushes, all of which are installed in the Palm Court. The total Chihuly collection is valued at $1.2 million.[8]</br>
+			<p>In 2009, Phipps teamed with another glass artist Hans Godo Frabel to create another stunning exhibit titled "Gardens and Glass." Unlike the Chihuly pieces, Frabel's work is more realistic, although still whimsical at times. Highlights of this exhibit include Longfellows, intricate glass orchid and lotus plants and various clowns (balancing on either glass playing cards or colored glass balls.) This collaboration was on display until January 2010.</br>	
+
+      </div>
+		</div>
+	</div>	
+  </div>
+
+<div class="sub-main-footer">
+  <div class="message"> Follow Us Here</div>
+  <div class="socialmedia">
+    <a href="https://www.facebook.com/phippsconservatory"><img class="logo" src="../images/Facebook_Logo.png" alt="facebook logo"/></a>
+    <a href="https://twitter.com/PhippsNews"><img class="logo" src="../images/twitter_logo.png" alt="twitterlogo"/></a>
+    <a href="http://www.youtube.com/user/phippsconservatory"><img class="logo" src="../images/youtube_logo.png" alt="youtube"/></a>
+    <a href="https://www.flickr.com/photos/phippsconservatory/"><img class="logo" src="../images/flicker_logo.png" alt="flicker"/></a>
+  </div>
+</div>
+
+
